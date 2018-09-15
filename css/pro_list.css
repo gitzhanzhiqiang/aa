@@ -1,0 +1,98 @@
+/*头部*/
+.price{
+	position: absolute;
+	width: 100%;
+	overflow: hidden;
+	bottom: 0px;
+	background: rgba(255,0,0,0.3);
+	left: 0;
+	z-index: 999;
+}
+.price span{
+	font-size: 15px;
+	color: white;
+	display: block;
+	line-height: 30px;
+}
+.price span:first-child{
+	float: left;
+	margin-left: 5%;
+}
+.price span:last-child{
+	float: right;
+	margin-right: 5%;
+}
+
+
+
+/*选择*/
+	
+.select{
+	width: 100%;
+	overflow: hidden;
+	padding: 0px 13px;
+}
+.select ul li{
+	width: 33.3%;
+	float: left;
+}
+.select ul li p{
+	width: 50%;
+	padding: 15px 0;
+	margin: 0 auto;
+}
+.select ul li p span{
+	font-size: 15px;
+	margin-left: 2%;
+}
+.select ul li p i{
+	width: 10px;
+	margin-left: 5%;
+	height: 10px;
+	display: inline-block;
+	background: url(../img/snajiao1.png) center center no-repeat;
+	background-size: 100%;
+}
+
+
+
+/*产品列表*/
+.pro_list{
+	width: 100%;
+	overflow: hidden;
+	padding: 0px 13px;
+}
+
+.pro_list ul li{
+	width: 48%;
+	margin-bottom: 4%;
+	overflow: hidden;
+}
+.pro_list ul li:nth-child(odd){
+	float: left;
+}
+.pro_list ul li:nth-child(even){
+	float: right;
+}
+.pro_list ul li a img{
+	width: 100%;
+	border: 1px solid #898383;
+}
+
+.pro_list ul li a span{
+	float: left;
+}
+.pro_list ul li a span b{
+	display: block;
+	margin-top: 2%;
+}
+.pro_list ul li a i{
+	margin-right: 10%;
+	margin-top: 8%;
+	width: 20px;
+	height: 20px;
+	float: right;
+	display: inline-block;
+	background: url(../img/listche.png) center center no-repeat;
+	background-size: 100%;
+}

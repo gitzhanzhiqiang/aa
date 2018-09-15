@@ -1,0 +1,140 @@
+.write_address{
+	overflow: hidden;
+	width: 100%;
+	border-top: 1px solid #8a8888;
+}
+.write_address .address{
+	overflow: hidden;
+	width: 100%;
+	padding: 0px 18px;
+}
+.write_address .address ul li{
+	padding: 15px 0;
+}
+.write_address .address ul li a img {
+	width: 5%;
+	float: left;
+}
+.write_address .address ul li a span{
+	font-size: 15px;
+	color: #504b4b;
+	margin-left: 2%;
+}
+.write_address .address ul li a i,
+.treatment a i{
+	display: inline-block;
+	float: right;
+	width: 6px;
+	margin-top: 2%;
+	height: 10px;
+	background: url(../img/jian.png) center center no-repeat;
+	background-size: 100%;
+}
+.write_address .address ul li a b{
+	float: right;
+	font-size: 15px;
+	color: #504b4b;
+	margin-right: 2%;
+}
+
+
+
+
+
+
+.the_price{
+	width: 100%;
+	overflow: hidden;
+	border-bottom: 1px solid #dedede;
+	border-top: 1px solid #dedede;
+}
+.the_price .price{
+	width: 100%;
+	overflow: hidden;
+	padding: 0px 18px;
+}
+.the_price .price h1{
+	font-size: 15px;
+	color: #000000;
+	line-height: 44px;
+}
+.the_price .price .price_top,
+.the_price .price .price_bottom{
+	overflow: hidden;
+	margin-top: 10px;
+}
+.the_price .price .price_top img{
+	width: 40%;
+	border: 1px solid #ab693c;
+	float: left;
+}
+.the_price .price .price_top p{
+	width: 54%;
+	float: right;
+	margin-top: 6%;
+	font-size: 15px;
+	color: #272626;
+}
+.the_price .price .price_top p span{
+	float: left;
+	display: block;
+	margin-top: 2%;
+}
+.the_price .price .price_bottom p{
+	text-align: right;
+	font-size: 15px;
+	color: #8a8888;
+	margin-bottom: 2%;
+}
+
+
+
+
+/*优惠*/
+.treatment{
+	width: 100%;
+	overflow: hidden;
+	padding: 0px 18px;
+	margin-top: 25px;
+	margin-bottom: 27%;
+}
+.treatment a img{
+	width: 11%;
+	float: left;
+	
+}
+.treatment a span{
+	font-size: 15px;
+	color: #272626;
+}
+
+
+
+/*提交订单*/
+.clearing {
+	width: 100%;
+	overflow: hidden;
+	position: fixed;
+	border: 0;
+	background: #f4f3f3;
+}
+.clearing span{ 
+	float: left;
+	line-height: 50px;
+	font-size: 12px;
+	color: #4a4a4a;
+	margin-left: 18px;
+}
+.clearing span b{
+	color: #ff5635;
+}
+.clearing a{
+	display: inline-block;
+	width: 30%;
+	line-height: 50px;
+	text-align: center;
+	float: right;
+	background: #ff5635;
+	font-size: 15px;
+	color: white;
+}

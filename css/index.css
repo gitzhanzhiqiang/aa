@@ -1,0 +1,128 @@
+
+
+
+
+
+
+/*热门产品*/
+.hot_products{
+	margin-top: 18px;
+	overflow: hidden;
+	width: 100%;
+}
+.hot_products .products{
+	width: 100%;
+	padding: 0 13px;
+	margin-top: 8px;
+	overflow: hidden;
+}
+.hot_products .products .pro_top{
+	overflow: hidden;
+}
+.hot_products .products .pro_top a img{
+	width: 40%;
+	border: 3px solid #c9c9c9;
+	float: left;
+}
+.hot_products .products .pro_top div{
+	width: 56%;
+	float: right;
+}
+.hot_products .products .pro_top div p{
+	font-size: 12px;
+	color: #4c4b4b;
+	margin-top: 12px;
+}
+
+
+.hot_products .products .pro_bottom{
+	width: 100%;
+	margin-top: 8px;
+	overflow: hidden;
+}
+
+.hot_products .products .pro_bottom ul li{
+	border: 3px solid #c9c9c9;
+	
+}
+.hot_products .products .pro_bottom ul li img{
+	border-bottom: 3px solid #c9c9c9;
+}
+.hot_products .products .pro_bottom ul li:first-child{
+	float: left;
+	width: 40%;
+}
+.hot_products .products .pro_bottom ul li:first-child img,
+.hot_products .products .pro_bottom ul li:last-child img,
+.hot_products .products .pro_bottom ul li .copy{
+	width: 100%;
+}
+.hot_products .products .pro_bottom ul li:last-child{
+	float: left;
+	width: 51%;
+	margin-left: 5%;
+}
+.hot_products .products .pro_bottom ul li .copy a span{
+	display: block;
+	font-size: 12px;
+	color: #4c4b4b;
+	text-align: left;
+
+}
+
+
+
+
+
+/*首页标题*/
+.tit{
+	width:100%;
+	overflow: hidden;
+	background: #f0ecec;
+	padding: 0 13px;
+}
+.tit h1{
+	font-size: 16px;
+	line-height: 25px;
+	color: #000000;
+	float: left;
+}
+.tit a{
+	display: block;
+	width: 7%;
+	height: 25px;
+	background: url(../img/jian.png) center center no-repeat;
+	float: right;
+	background-size: 7px 10px;
+}
+
+
+
+
+
+
+
+
+
+/*介绍*/
+.introduce {
+	width: 100%;
+	overflow: hidden;
+	margin-top: 15px;
+	padding-bottom: 42px;
+}
+.introduce h2{
+	width: 100%;
+	background: #f0ecec;
+	font-size: 16px;
+	color: #000000;
+	text-align: center;
+}
+.introduce img {
+	width: 100%;
+}
+
+
+
+
+

@@ -1,0 +1,80 @@
+.min{
+	width: 100%;
+	overflow: hidden;
+	border-top: 1px solid #8a8888;
+}
+.nav_tab{
+	width: 100%;
+	padding: 0 15px;
+	overflow: hidden;
+}
+.nav_tab ul li{
+	width: 25%;
+	line-height: 45px;
+	float: left;
+	text-align: center;
+	font-size: #4a4a4a;
+}
+.nav_tab ul .xia{
+	background: url(../img/xia.png) center bottom no-repeat;
+	color: #ff5635;
+}
+
+.order_details{
+	width: 100%;
+	overflow: hidden;
+	padding: 0px 13px;
+	margin-top: 15px;
+}
+
+.order_details ul li h4{
+	text-align: left;
+	font-size: 14px;
+	line-height: 30px;
+	color: #4a4a4a;
+}
+.order_details ul li h4 a{
+	display: block;
+	width: 10%;
+	height: 30px;
+	background: url(../img/jian.png) center center no-repeat;
+	float: right;
+	background-size: 10px 13px;
+}
+.order_details .shop img{
+	width: 45%;
+}
+.order_details .shop .shop_introduce{
+	width: 50%;
+	overflow: hidden;
+	float: right;
+}
+
+.order_details .shop .shop_introduce span,
+.order_details .shop .shop_introduce b{
+	display: block;
+	font-size: 14px;
+	color: #4a4a4a;
+}
+.order_details .shop .shop_introduce span{
+	margin-top: 3px;
+}
+.order_details .shop .shop_introduce b{
+	margin-top: 25px;
+}
+.order_details .shop .shop_introduce b i{
+	color: #ff5635;
+}
+.order_details ul li{
+	overflow: hidden;
+}
+.order_details ul li .deleting{
+	display: block;
+	width: 25%;
+	float: right;
+	text-align: center;
+	font-size: 12px;
+	line-height: 17px;
+	border: 1px solid #8a8888;
+	border-radius: 5px;
+}

@@ -1,0 +1,505 @@
+/*公共样式*/
+*{
+	margin:0;
+	padding: 0;
+	font-weight: normal;
+	font-style: normal;
+	box-sizing: border-box;
+}
+body{
+	
+    font:12px "microsoft yahei",Arial,Helvetica,sans-serif;
+    color:#666;
+    font-family: "微软雅黑";
+}
+p,div,ul,li,dl,dd,h1,h2,h3,h4,h5,h6{
+    list-style:none;
+    padding:0;
+    margin:0;
+}
+b{
+    font-weight:normal;
+}
+input{
+    border:none;
+}
+a{
+    color:#333;
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:none;
+}
+a{
+    color: #000;
+    text-decoration: none;
+}
+img{
+	border: none;
+	outline: none;
+}
+
+
+/*价格变色*/
+.hot_products .products .pro_top div p span,
+.hot_products .products .pro_bottom ul li .copy a span b,
+.the_zone .zone ul li a span b,
+.pro_list ul li a span b em,
+.product_details .details p i,
+.the_price .price .price_bottom p i{
+	color: #ff0202;
+}
+/*a变块*/
+.pro_list ul li a,
+.foot ul li a,
+.hot_products .products .pro_bottom ul li a,
+.the_zone .zone ul li a,
+.write_address .address ul li a,
+.treatment a{
+	display: block;
+}
+.header{
+	width: 100%;
+	height: 238px;
+	position: relative;
+	background: black;
+}
+/*头部*/
+.header .top {
+	position: fixed;
+	width: 100%;
+	height: 44px;
+	z-index: 999;
+}
+
+.icon{
+	background-image: url(../img/xuebi.png);
+	background-repeat: no-repeat;
+	background-size: 100px 25px;
+}
+
+.header .top i.icon{
+	position: absolute;
+	width: 32px;
+	height: 25px;
+	display: block;
+	left: 9%;
+	top: 14px;
+	background-position: 0px 0px;
+}
+.header .top p{
+	width: 52%;
+	height: 32px;
+	background: #ededed;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 10px;
+	position: relative;
+}
+.header .top p input{
+	width: 80%;
+	height: 32px;
+	margin-left: 32px;
+	font-size: 12px;
+	color: #d4d4d4;
+	background: no-repeat;
+	outline: none;
+	border: none;
+}
+.header .top p b{
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 32px;
+	height: 32px;
+	background: url(../img/subise.png) center center no-repeat;
+	background-size: 18px 15px;
+}
+.header .top span.icon{
+	position: absolute;
+	width: 24px;
+	height: 24px;
+	display: block;
+	right: 15%;
+	top: 14px;
+	background-position: -40px -1px;
+}
+.header .top a.icon{
+	position: absolute;
+	width: 25px;
+	height: 25px;
+	display: block;
+	right: 5%;
+	top: 14px;
+	background-position: -76px -1px;
+}
+
+.swiper-pagination-bullet{
+	width: 19px;
+	height: 19px;
+	display: inline-block;
+	background: url(../img/dian.png) no-repeat;
+}
+.swiper-pagination-bullet-active{
+	width: 19px;
+	height: 19px;
+	display: inline-block;
+	background: url(../img/diani.png) no-repeat;
+}
+
+
+
+
+
+
+/*脚*/
+.foot{
+	width: 100%;
+	overflow: hidden;
+	padding: 0px 13px;
+	position: fixed;
+	bottom: 0;
+	background: white;
+}
+.foot ul li{
+	width: 25%;
+	float: left;
+}
+
+.foot ul li a img{
+	width: 33%;
+	display: block;
+	margin: 0 auto;
+}
+.foot ul li a span{
+	display: block;
+	text-align: center;
+	font-size: 12px;
+	color: #000000;
+}
+
+
+
+
+
+
+
+
+
+/*banner*/
+
+.header .swiper-container .swiper-wrapper .swiper-slide,
+.header .swiper-container .swiper-wrapper .swiper-slide img{
+	width: 100%;
+	height: 238px;
+}
+
+
+
+/*导航*/
+.nav{
+	width: 100%;
+	overflow: hidden;
+	padding: 0px 13px;
+	margin-top: 15px;
+}
+.nav ul li{
+	width: 25%;
+	float: left;
+}
+.nav ul li a,
+.nav ul li a img,
+.nav ul li a span{
+	display: block;
+}
+.nav ul li a img {
+	width: 60%;
+	margin: 0 auto;
+}
+.nav ul li a span{
+	text-align: center;
+	font-size: 12px;
+	color: #4c4b4b;
+}
+
+
+
+
+
+/*专区产品*/
+.the_zone{
+	width: 100%;
+	overflow: hidden;
+	margin-top: 15px;
+}
+.the_zone .zone{
+	width: 100%;
+	overflow: hidden;
+	padding: 0px 13px;
+	margin-top: 8px;
+}
+.the_zone .zone ul li{
+	width: 48%;
+	background: #dbd9d9;
+	margin-top: 8px;
+}
+
+.the_zone .zone ul li a span{
+	display: block;
+	float: right;
+	width: 38%;
+	margin-top: 3%;
+	overflow: hidden;
+}
+
+.the_zone .zone ul li a img {
+	width: 50%;
+	display: block;
+	float: left;
+	margin: 3% 6%;
+}
+.the_zone .zone ul li:nth-child(odd){
+	float: left;
+}
+.the_zone .zone ul li:nth-child(even){
+	float: right;
+}
+
+
+
+
+
+/*顶部返回*/
+.head{
+	width: 100%;
+	overflow: hidden;
+	padding: 0px 13px;
+	position: relative;
+}
+.head h4{
+	text-align: center;
+	font-size: 19px;
+	color: #000000;
+	line-height: 44px;
+}
+.head .turn{
+	width: 44px;
+	height: 44px;
+	display: block;
+	background: url(../img/turn.png) center center no-repeat;
+	background-size: 30%;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.head .Log_in_to{
+	display: block;
+	width: 20%;
+	font-size: 19px;
+	color: #000000;
+	position: absolute;
+	text-align: center;
+	line-height: 44px;
+	right: 0;
+	top: 0;
+}
+
+
+
+
+
+
+/*支付*/
+.pay_btn{
+	width: 100%;
+	overflow: hidden;
+	padding: 0px 13px;
+}
+.pay_btn a{
+	display: block;
+	width: 80%;
+	margin: 0 auto;
+	border-radius: 5px;
+	text-align: center;
+	font-size: 17px;
+	color: #000000;
+	line-height: 33px;
+	margin-bottom: 15px;
+	border: 1px solid #797777;
+}
+.pay_btn a:first-child{
+	background: #2ccd2c;
+	border: 1px solid #2ccd2c;
+	color: white;
+}
+.pay_btn p{
+	overflow: hidden;
+	line-height: 20px;
+	margin-top: 20px;
+	font-size: 12px;
+	color: #797777;
+}
+.pay_btn p img{
+	width: 5%;
+	float: left;
+	margin-right: 2%;
+	margin-top: 1%;
+	
+}
+
+
+/*支付*/
+.Pay_fail{
+	border-bottom: 1px solid #8a8888;
+	border-top: 1px solid #8a8888;
+	width: 100%;
+	overflow: hidden;
+}
+.Pay_fail img{
+	width: 20%;
+	display: block;
+	margin: 25px auto;
+}
+.Pay_fail p{
+	text-align: center;
+	font-size: 17px;
+	color: #010101;
+	margin: 25px 0;
+}
+
+
+
+
+.order_information {
+	width: 100%;
+	overflow: hidden;
+	padding: 0px 13px;
+	margin-bottom: 35px;
+}
+.order_information h3{
+	font-size: 15px;
+	color: #000000;
+	line-height: 44px;
+}
+.order_information p{
+	font-size: 14px;
+	color: #343434;
+	line-height: 20px;
+}
+
+
+/*登入注册*/
+
+.Log{
+	width: 100%;
+	overflow: hidden;
+	border-top: 1px solid #8a8888;
+}
+
+.Log_to{
+	width: 100%;
+	overflow: hidden;
+	padding: 0 13px;
+	margin-top: 25px;
+}
+
+.Log_to p{
+	width: 100%;
+	overflow: hidden;
+	border-radius: 2px;
+	margin-top: 18px;
+}
+.Log_to p input{
+	height: 32px;
+	width: 100%;
+	outline: none;
+	font-size: 15px;
+	color: #cacaca;
+	padding-left: 5%;
+	border: 1px solid #e4e4e4;
+}
+.Log_to p:nth-child(3) input{
+	width: 74%;
+	float: left;
+	
+}
+
+.Log_to p:nth-child(3) img{
+	width: 23%;
+	float: right;
+}
+
+.Log .Log_to>a{
+	display: block;
+	width: 100%;
+	text-align: center;
+	color: white;
+	background: #ff0000;
+	padding: 10px;
+	font-size: 19px;
+	margin-top: 18px;
+}
+
+
+.Log .registration{
+	width: 100%;
+	overflow: hidden;
+	padding: 0px 13px;
+	margin-top: 8px;
+}
+.Log .registration a{
+	font-size: 12px;
+	color: #424242;
+	padding: 5px;
+}
+.Log .registration a:first-child{
+	float: left;
+}
+.Log .registration a:last-child{
+	float: right;
+}
+
+
+
+
+.Log .Log_way{
+	width: 88%;
+	margin: 0 auto;
+	overflow: hidden;
+	padding: 0 13px;
+	margin-top: 80px;
+}
+.Log .Log_way span{
+	font-size: 12px;
+	color: #424242;
+	float: left;
+	margin-top: 3%;
+}
+.Log .Log_way p{
+	float: right;
+}
+.Log .Log_way p a{
+	margin-left: 10%;
+}
+.Log .Log_way p img{
+	width: 20%;
+}
+.Log .protocol{
+	width: 100%;
+	overflow: hidden;
+	padding: 0 13px;
+	margin-top: 8px;
+}
+.Log .protocol span{
+	font-size: 12px;
+	color: #4b4b4b;
+	float: right;
+}
+.Log .protocol label span a{
+	color: #000000;
+	border-bottom: 1px solid #000000;
+}
+.Log .protocol label input{
+	width: 8%;
+	float: left;
+}

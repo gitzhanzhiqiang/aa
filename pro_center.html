@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1,user-scalable=no">
+		<link rel="stylesheet" type="text/css" href="css/swiper-3.4.2.min.css" />
+		<link rel="stylesheet" type="text/css" href="css/common_style.css" />
+		<link rel="stylesheet" type="text/css" href="css/pro_center.css" />
+		<script type="text/javascript" src="js/jquery-1.11.0.js"></script>
+		<script type="text/javascript" src="js/swiper-3.4.2.min.js"></script>
+		<title></title>
+	</head>
+	<body>
+		
+		<div class="head">
+			<a href="" class="turn"></a>
+			<h4>布依神酒</h4>
+		</div>
+		<div class="header">
+			<div class="swiper-container">
+				<div class="swiper-wrapper">
+					<div class="swiper-slide">
+						<img src="img/lis.png" />
+					</div>
+					<div class="swiper-slide">
+						<img src="img/lis2.png" />
+					</div>
+					<div class="swiper-slide">
+						<img src="img/lis3.png" />
+					</div>
+				</div>
+				<!-- 如果需要分页器 -->
+				<div class="swiper-pagination">
+					
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+				var mySwiper = new Swiper('.header .swiper-container', {
+					autoplay: 1000,//可选选项，自动滑动
+					loop : true, 
+					// 如果需要分页器
+					pagination: '.swiper-pagination',
+				})
+		</script>
+		
+		<div class="btn">
+			<a href="">加入购物车</a>
+			<a href="">立即购买</a>
+		</div>
+		
+		
+		<div class="product_details">
+			<div class="tit">
+				<h1>产品详情</h1>
+			</div>
+			<div class="details">
+				<p>布依神酒</p>
+				<p>价格：<i>180.80</i>元</p>
+				<p><span>酒精度：39°C</span>&nbsp;&nbsp;&nbsp;&nbsp;<span>容量：500ml</span></p>
+			</div>
+		</div>
+		
+		<div class="product_features">
+			<div class="tit">
+				<h1>产品特色</h1>
+			</div>
+			<div class="features">
+				<p>1.具有鲜明的布依酒文化特色</p>
+				<p>2.便于推广，故回头率较高。</p>
+				<p>3.酒的品质好，口感不错，在同类生产品
+  中，有明显的竞争优势。</p>
+			</div>
+		</div>
+		
+		
+		<div class="product_formula">
+			<div class="tit">
+				<h1>产品配方</h1>
+			</div>
+			<div class="formula">
+				<p>配料：白酒、蜂蜜、枸杞、桂圆、山药、茯苓、栀子</p>
+				<img src="img/pddo_18.png">
+			</div>
+		</div>
+	</body>
+</html>

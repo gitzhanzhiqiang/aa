@@ -1,0 +1,89 @@
+
+
+
+
+
+
+
+
+/*点击购买*/
+.btn{
+	width: 100%;
+	overflow: hidden;
+	padding: 0px 13px;
+}
+.btn a{
+	display: inline-block;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 5px;
+	margin: 10px 0;
+}
+.btn a:first-child{	
+	width: 50%;
+	float: left;
+	background: #24a5f7;
+}
+.btn a:last-child{	
+	width: 40%;
+	float: right;
+	background: #f72442;
+}
+
+
+/*标题*/
+.tit{
+	border-bottom: 1px solid #cccccc;
+}
+.tit h1{
+	font-size: 19px;
+	line-height: 35px;
+	color: #000000;
+}
+/*产品详情*/
+.product_details{
+	width: 100%;
+	overflow: hidden;
+	padding: 0px 13px;
+}
+.product_details .details p:first-child{
+	color: #000000;
+}
+.product_details .details p{
+	font-size: 19px;
+	color: #585858;
+	margin-top: 10px;
+}
+
+
+
+/*产品特色 */
+.product_features {
+	width: 100%;
+	overflow: hidden;
+	padding: 0px 13px;
+	margin-top: 10px;
+}
+
+.product_features .features p,
+.product_formula .formula p{
+	font-size: 18px;
+	color: #585858;
+	margin-top: 10px;
+}
+
+
+
+/*产品配方*/
+.product_formula{
+	width: 100%;
+	overflow: hidden;
+	padding: 0px 13px ;
+	margin-top: 10px;
+}
+.product_formula .formula img{
+	width: 98%;
+	display: block;
+	margin: 20px auto;
+	
+}
